@@ -384,8 +384,6 @@
   padding: 3px;
   font-weight: bold;
 }
-.notice2 ul {
-}
 .notice2 li {
   overflow: hidden;
   background: url(../img/dot.gif) no-repeat 0 8px;
@@ -404,6 +402,47 @@
   text-align: right;
 }
 .notice2 a.more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: url(../img/icon.png) -150px -90px;
+  width: 17px;
+  height: 17px;
+}
+
+/* 게시판3 */
+.notice3 {
+  position: relative;
+}
+.notice3 h4 {
+  font-size: 14px;
+  color: #0094be;
+  padding: 3px;
+  font-weight: bold;
+}
+.notice3 li {
+  position: relative;
+  padding: 8px 0 14px 60px;
+}
+.notice3 li a img {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #0093bd;
+}
+.notice3 li a strong {
+  display: block;
+}
+.notice3 li a span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.notice3 a.more {
   position: absolute;
   top: 0;
   right: 0;
